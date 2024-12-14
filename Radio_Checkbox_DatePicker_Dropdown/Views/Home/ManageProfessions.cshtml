@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Profession>
+
+<h2>Manage Professions</h2>
+
+<!-- Add Profession Form -->
+<form asp-action="AddProfession" method="post">
+    <input type="text" name="name" placeholder="Enter new profession" required />
+    <button type="submit">Add Profession</button>
+</form>
+
+<!-- Profession List -->
+<table>
+    <thead>
+        <tr>
+            <th>Profession Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profession in Model)
+        {
+            <tr>
+                <td>@profession.Name</td>
+                <td>
+                    <form asp-action="RemoveProfession" method="post">
+                        <input type="hidden" name="id" value="@profession.Id" />
+                        <button type="submit">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

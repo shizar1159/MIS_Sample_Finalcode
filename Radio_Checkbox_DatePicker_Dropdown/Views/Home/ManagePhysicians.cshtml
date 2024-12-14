@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Physician> 
+
+<h3>Manage List</h3>
+<form asp-action="AddPhysician" method="post">
+    <input type="text" name="name" placeholder="Enter name" />
+    <button type="submit">Add</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>
+                    <form asp-action="RemovePhysician" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

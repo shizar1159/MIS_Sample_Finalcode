@@ -1,0 +1,42 @@
+﻿@model ScheduleViewModel
+
+<form asp-action="Index" method="post">
+    <h3>Schedule Entry</h3>
+
+    <div>
+        <h4>Select a Physician:</h4>
+        @foreach (var physician in Model.Physicians)
+        {
+            <label>
+                <input type="radio" name="SelectedPhysician" value="@physician.Name" /> @physician.Name
+            </label>
+        }
+    </div>
+
+    <div>
+        <h4>Select a Profession:</h4>
+        <select asp-for="SelectedProfession">
+            @foreach (var profession in Model.Professions)
+            {
+                <option value="@profession.Name">@profession.Name</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <h4>Select Gender:</h4>
+        <label>
+            <input type="checkbox" asp-for="IsMale" /> Male
+        </label>
+        <label>
+            <input type="checkbox" asp-for="IsFemale" /> Female
+        </label>
+    </div>
+
+    <div>
+        <h4>Select a Date:</h4>
+        <input type="date" asp-for="SelectedDate" value="@Model.SelectedDate.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <button type="submit">Submit</button>
+</form>

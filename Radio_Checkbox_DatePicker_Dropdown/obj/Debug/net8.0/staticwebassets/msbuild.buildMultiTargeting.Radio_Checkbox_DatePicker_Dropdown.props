@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Radio_Checkbox_DatePicker_Dropdown.props" />
+</Project>

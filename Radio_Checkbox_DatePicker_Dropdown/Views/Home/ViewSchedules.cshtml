@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Schedule>
+
+<h3>Schedules</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Physician</th>
+            <th>Profession</th>
+            <th>Male</th>
+            <th>Female</th>
+            <th>Date</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var schedule in Model)
+        {
+            <tr>
+                <td>@schedule.SelectedPhysician</td>
+                <td>@schedule.SelectedProfession</td>
+                <td>@schedule.IsMale</td>
+                <td>@schedule.IsFemale</td>
+                <td>@schedule.SelectedDate.ToShortDateString()</td>
+                <td>@schedule.Timestamp</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Radio_Checkbox_DatePicker_Dropdown
+build_property.RootNamespace = Radio_Checkbox_DatePicker_Dropdown
+build_property.ProjectDir = C:\Users\shiza\source\repos\Radio_Checkbox_DatePicker_Dropdown\Radio_Checkbox_DatePicker_Dropdown\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\shiza\source\repos\Radio_Checkbox_DatePicker_Dropdown\Radio_Checkbox_DatePicker_Dropdown
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Home/ManagePhysicians.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW5hZ2VQaHlzaWNpYW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Home/ManageProfessions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW5hZ2VQcm9mZXNzaW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Home/ViewSchedules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3U2NoZWR1bGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/shiza/source/repos/Radio_Checkbox_DatePicker_Dropdown/Radio_Checkbox_DatePicker_Dropdown/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m4isb4bza5
